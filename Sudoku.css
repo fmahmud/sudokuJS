@@ -1,0 +1,10 @@
+.box input {
+    padding: 15px;
+    width: 50px;
+    text-align: center;
+    border: 2px solid #80146c;
+}
+
+input[disabled='disabled'] {
+    background: #efefef;
+}
