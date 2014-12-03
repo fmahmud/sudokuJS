@@ -1,0 +1,53 @@
+.big_table {
+	width: 540;
+	height: 540;
+}
+
+.big_row {
+	width: 540;
+	height: 180;
+}
+
+.big_cell {
+	width: 180;
+	height: 180;
+	/*border: 2px solid rgba(0, 0, 0, 0.5);*/
+}
+
+.small_table {
+	width: 180;
+	height: 180;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+	border-right: 1px solid rgba(0, 0, 0, 0.5);
+
+}
+
+.small_row {
+	width: 180;
+	height: 60;
+}
+
+.small_cell {
+	text-align: center;
+	font-family: "Calibri";
+	width: 60;
+	height: 60;
+	border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+	border-right: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.small_cell:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.board {
+	width:550px;
+	height:550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.big_table {
+	border-top: 1px solid rgba(0, 0, 0, 0.5);
+	border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
